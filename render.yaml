@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flower-prediction-app
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: PORT
+        value: 10000
